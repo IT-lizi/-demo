@@ -1,0 +1,217 @@
+        /* 通用样式 */
+        
+        @font-face {
+            font-family: "iconfont";
+            /* Project id 3301470 */
+            src: url('../fonts/iconfont.woff2?t=1649041590135') format('woff2'), url('../fonts/iconfont.woff?t=1649041590135') format('woff'), url('../fonts/iconfont.ttf?t=1649041590135') format('truetype');
+        }
+        
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .w {
+            width: 1090px;
+            margin: 0 auto;
+        }
+        
+        .fl {
+            float: left;
+        }
+        
+        .fr {
+            float: right;
+        }
+        
+        .shortcut {
+            height: 36px;
+            line-height: 36px;
+            background-color: #333;
+        }
+        
+        .shortcut .fl a {
+            text-decoration: underline;
+            color: #cc9756;
+            font-size: 12px;
+        }
+        
+        .shortcut a:hover {
+            color: #fff;
+        }
+        
+        .shortcut .fr ul li {
+            float: left;
+        }
+        
+        .shortcut .fr ul li a {
+            color: #ccc;
+        }
+        
+        .shortcut .fr ul li a:hover {
+            color: #fff;
+        }
+        
+        .shortcut .fr ul li:nth-child(even) {
+            margin: 13px 9px 0;
+            width: 1px;
+            height: 13px;
+            background-color: #ccc;
+        }
+        
+        .shortcut .fr ul li i {
+            margin-left: 2px;
+            font-size: 12px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        
+        .shortcut .fr ul li .app {
+            font-size: 14px;
+            margin-left: 0px;
+            margin-right: 3px;
+        }
+        /* header模块 */
+        
+        header {
+            position: relative;
+            height: 115px;
+        }
+        
+        header .logo {
+            position: absolute;
+            top: 30px;
+            left: 0;
+        }
+        
+        header .logo h1 a {
+            display: block;
+            width: 215px;
+            height: 53px;
+            background: url(../img/icons.webp) no-repeat 0 -302px;
+        }
+        
+        header .search {
+            position: absolute;
+            top: 30px;
+            left: 300px;
+            width: 532px;
+            height: 38px;
+            border: 1px solid #cc9756;
+            border-radius: 19px;
+        }
+        
+        header .search i {
+            position: absolute;
+            top: 7px;
+            left: 15px;
+        }
+        
+        header .search input {
+            float: left;
+            width: 440px;
+            height: 36px;
+            border-radius: 18px;
+            padding-left: 35px;
+            font-size: 12px;
+        }
+        
+        header .search button {
+            width: 90px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+            background-color: #cc9756;
+            border-top-right-radius: 18px;
+            border-bottom-right-radius: 18px;
+            font-size: 16px;
+        }
+        
+        header .shopcar {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            width: 134px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            font-size: 15px;
+            border: 1px solid #cc9756;
+            border-radius: 19px;
+            color: #cc9756;
+        }
+        
+        header .shopcar .court {
+            padding: 0 6px;
+            border-radius: 50%;
+            background-color: #c81623;
+            color: #fff;
+        }
+        
+        .hotword {
+            position: absolute;
+            top: 72px;
+            left: 320px;
+        }
+        
+        .hotword ul li {
+            float: left;
+        }
+        
+        .hotword ul li:nth-child(even) {
+            width: 1px;
+            height: 9px;
+            background-color: #999;
+            margin: 5px 10px;
+        }
+        
+        .current a {
+            color: #cc9756;
+        }
+        
+        .hotword ul li a {
+            color: #999;
+        }
+        
+        .hotword ul li a:hover {
+            color: #cc9756;
+        }
+        
+        nav {
+            height: 35px;
+            border-bottom: 1px solid #e1e0e0;
+        }
+        
+        nav ul li {
+            float: left;
+            height: 34px;
+            margin: 0 2px;
+        }
+        
+        nav ul .current {
+            border-bottom: 3px solid #cc9756;
+        }
+        
+        nav ul li a {
+            font-size: 14px;
+            color: #000;
+            font-weight: 700;
+            padding: 0 15px 10px;
+        }
+        
+        nav ul li:first-child {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        
+        nav ul li:hover {
+            border-bottom: 3px solid #cc9756;
+        }
+        
+        nav ul li:hover a {
+            color: #cc9756;
+        }
