@@ -1,2 +1,2 @@
 # wangyiyanxuan-demo
-first-step:静态网页
+first-step:完成首页index的html+css布局
